@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="survey">
+        <form action="/processing" method="post">
+        
+            <label for="name">Your Name: </label>
+            <input type="text" name="name">
+
+            <label for="location">Dojo Location: </label>
+            <select name="location">
+                <option value="Seattle">Seattle</option>
+                <option value="Boise">Boise</option>
+                <option value="Dallas">Dallas</option>
+                <option value="Los Angeles">Los Angeles</option>
+            </select>
+
+            <label for="language">Favorite Language: </label>
+            <select name="language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </select>
+
+            <label for="comment">Comment (optional): </label>
+            <textarea name="comment" cols="30" rows="5"></textarea>
+
+            <input type="submit" value="Submit">
+        
+        </form>
+    </div>
+</body>
+</html>
